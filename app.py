@@ -21,7 +21,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\91801\Downloads\ai_job_dataset.csv")
+    return pd.read_csv(r"ai_job_dataset.csv")
 
 df = load_data()
 # =========================
